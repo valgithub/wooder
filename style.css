@@ -1,0 +1,659 @@
+
+body {
+  margin:0px; padding:0px;
+  width:1920px;
+  height: 4776px;
+  position: absolute;
+
+
+}
+#main{
+  width:1920px;
+  height: 4776px;
+  background-color:#eee;
+  position: absolute;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.ttest{
+  width:1920px;
+  height: 4776px;
+  background-image: url("images/WooderOrig2.png");
+  opacity: 0.5;
+  position: absolute;
+  z-index: 300;
+}
+
+#header{
+z-index:400;
+position: fixed;
+display: inline;
+}
+
+.menu1 {
+  border-width: 1px;
+  border-color: rgba( 190, 166, 124, 0.5 );
+  border-style: solid;
+  position: absolute;
+  left: 27px;
+  top: 18px;
+  width: 30px;
+  height: 0;
+  z-index: 130;
+}
+
+.menu2 {
+  border-width: 1px;
+  border-color: rgba( 190, 166, 124, 0.5 );
+  border-style: solid;
+  position: absolute;
+  left: 27px;
+  top: 28px;
+  width: 30px;
+  height: 0;
+  z-index: 130;
+}
+
+.menu3 {
+  border-width: 1px;
+  border-color: rgba( 190, 166, 124, 0.5 );
+  border-style: solid;
+  position: absolute;
+  left: 27px;
+  top: 38px;
+  width: 30px;
+  height: 0;
+  z-index: 130;
+}
+
+.menuN{
+  cursor:pointer;
+}
+
+.menu {
+  font-size: 15px;
+  font-family: "Proxima Nova";
+  color: rgba( 255, 255, 255, 0.5 );
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.8;
+  text-align: left;
+  position: absolute;
+  left: 70px;
+  top: 34px;
+  z-index: 134;
+  cursor:pointer;
+}
+.home {
+  font-size: 15px;
+  font-family: "Proxima Nova";
+  color: rgba( 255, 255, 255, 0.5 );
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.8;
+  text-align: left;
+  position: absolute;
+  left: 1020px;
+  top: 34px;
+  z-index: 135;
+  cursor:pointer;
+}
+
+.products {
+  font-size: 15px;
+  font-family: "Proxima Nova";
+  color: rgba( 255, 255, 255, 0.5);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.8;
+  text-align: left;
+  position: absolute;
+  left: 1183px;
+  top: 34px;
+  z-index: 136;
+  cursor:pointer;
+}
+
+.about {
+  font-size: 15px;
+  font-family: "Proxima Nova";
+  color: rgba( 255, 255, 255, 0.5 );
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.8;
+  text-align: left;
+  position: absolute;
+  left: 1363px;
+  top: 34px;
+  z-index: 137;
+  cursor:pointer;
+}
+
+
+.woodermenu {
+  font-size: 36px;
+  font-family: "Proxima Nova";
+  color: rgb( 255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  left: 710px;
+  top:-15px;
+  z-index: 128;
+}
+
+.info {
+ color: rgba( 255, 255, 255,0.5);
+ text-align: left;
+ position: absolute;
+ left: 1780px;
+ top: 34px;
+ z-index: 133;
+ cursor:pointer;
+ }
+ .langmenu {
+  font-size: 15px;
+  font-family: "Proxima Nova";
+  color: rgba( 190, 166, 124,0.5);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  position: absolute;
+  background-color:rgba( 0, 0, 0, 0);
+  left: 1850px;
+  top: 34px;
+  z-index: 133;
+  border-color: rgba( 0, 0, 0, 0);
+  cursor:pointer;
+}
+
+.line2 {
+  background-color: rgb( 190, 166, 124 );
+  position: absolute;
+  left: 752px;
+  top: 41px;
+  width: 64px;
+  height: 4px;
+  z-index: 138;
+}
+
+.wooder{
+  overflow: hidden;
+}
+.wooder1 {
+  background-color: rgb( 0, 0, 0 );
+  position: absolute;
+  left: -664px;
+  top: -1px;
+  width: 1962px;
+  height: 1001px;
+  z-index: 45;
+}
+.wooder2{
+  position: absolute;
+  left: -664px;
+  top: -1px;
+  width: 1962px;
+  height: 1001px;
+  z-index: 50;
+  background-image: url("images/DSC_1007_2000.png");
+  opacity: 0.1;
+}
+.wooder3 {
+  background-color: rgb(0, 0, 0 );
+  position: absolute;
+  right: 0px;
+  top: -1px;
+  width: 903px;
+  height: 1043px;
+  z-index: 55;
+}
+.wooder4 {
+  position: absolute;
+  right: 0px;
+  top: -1px;
+  width: 903px;
+  height: 1043px;
+  background-image: url("images/boss-fight-free-stock.png");
+  opacity: 0.1;
+  z-index: 60;
+}
+.wooder5{
+  font-size: 90px;
+  font-family: "Proxima Nova";
+  color: rgb( 190, 166, 124 );
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+  left: 707px;
+  top:350px;
+  z-index: 89;
+}
+
+._01 {
+  font-family: "Proxima Nova";
+  font-size: 55px;
+  color: rgb( 190, 166, 124 );
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  position: absolute;
+  display: inline;
+  left: 200px;
+  top: 450px;
+  z-index: 90;
+  transform: rotate(90deg);
+}
+._02, ._03{
+  display: inline;
+}
+._04 {
+  display: inline;
+  font-size: 30px;
+  opacity:0.8;
+}
+._05 {
+  display: inline;
+  font-size: 30px;
+  opacity:0.6;
+}
+._06 {
+  display: inline;
+  font-size: 30px;
+  opacity:0.4;
+}
+._07 {
+  display: inline;
+  font-size: 30px;
+  opacity:0.2;
+}
+
+.scroll01{
+  color: rgb( 255, 255, 255 );
+  position: absolute;
+  display: inline;
+  left: 704px;
+  top: 600px;
+  z-index: 90;
+  cursor:pointer;
+}
+.scroll02{
+  border-width: 1px;
+  border-color: rgb( 255, 255, 255 );
+  border-style: solid;
+  position: absolute;
+  left: 722px;
+  top: 652px;
+  width: 0px;
+  height: 80px;
+  z-index: 97;
+}
+.scroll03 {
+  border-width: 1px;
+  border-color: rgb( 255, 255, 255 );
+  border-style: solid;
+  position: absolute;
+  display: inline;
+  left: 719px;
+  top: 726px;
+  width: 0px;
+  height: 6px;
+  z-index: 101;
+    transform: rotate(-45deg);
+}
+.scroll04 {
+  border-width: 1px;
+  border-color: rgb( 255, 255, 255 );
+  border-style: solid;
+  position: absolute;
+  display: inline;
+  left: 725px;
+  top: 726px;
+  width: 0px;
+  height: 6px;
+  z-index: 101;
+    transform: rotate(45deg);
+}
+.scroll05{
+  color: rgb( 190, 166, 124 );
+  font-weight: bold;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: left;
+  position: absolute;
+  display: inline;
+  left:685px;
+  top: 780px;
+  z-index: 90;
+  transform: rotate(90deg);
+  opacity:0.2;
+}
+
+.button1{
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  font-family: "Proxima Nova";
+  font-size: 15px;
+  text-transform: uppercase;
+  position: absolute;
+  display:inline;
+  line-height: 1.8;
+  z-index: 100;
+  border-width: 2px;
+  border-color: rgb( 255, 255, 255 );
+  border-style: solid;
+  left: 711px;
+  top: 490px;
+  width: 304px;
+  height: 54px;
+  text-align: center;
+  cursor:pointer;
+}
+
+.send{
+  cursor:pointer;
+  position: absolute;
+  display: inline;
+  left: 1870px;
+  top: 990px;
+  z-index: 90;
+}
+
+.line1 {
+  background-color: rgb( 190, 166, 124 );
+  position: absolute;
+  left: 1555px;
+  top: 1005px;
+  width: 4px;
+  height: 51px;
+  z-index: 100;
+}
+
+.w {
+  font-size: 350px;
+  font-family: "Proxima Nova";
+  color: rgba( 169, 148, 110, 0.1 );
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: left;
+  position: absolute;
+  left: 1720px;
+  top: 320px;
+  z-index: 109;
+}
+
+.furniture {
+  font-size: 14px;
+  font-family: "Proxima Nova";
+  color: rgba( 190, 166, 124, 0.2 );
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  position: absolute;
+  left: 1430px;
+  top: 460px;
+  z-index: 91;
+  transform: rotate(90deg);
+
+}
+
+.woder{
+position: absolute;
+z-index:3;
+}
+
+.line3{
+  border-width: 1px;
+  border-color: rgba( 190, 166, 124, 0.5 );
+  border-style: solid;
+  position: absolute;
+  left: 1298px;
+  top: 2941px;
+  width: 23px;
+  height: 0;
+  z-index: 58;
+}
+
+.button2{
+  color: rgb(138, 102, 40);
+  font-weight: bold;
+  font-family: "Proxima Nova";
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: left;
+  position: absolute;
+  display:inline;
+  z-index: 125;
+  left: 550px;
+  top: 1390px;
+  cursor:pointer;
+}
+
+.button3{
+  color: rgb(138, 102, 40);
+  font-weight: bold;
+  font-family: "Proxima Nova";
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: left;
+  position: absolute;
+  display:inline;
+  z-index: 120;
+  left: 1200px;
+  top: 2070px;
+  cursor:pointer;
+}
+
+.button4{
+  color: rgb(138, 102, 40);
+  font-weight: bold;
+  font-family: "Proxima Nova";
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: left;
+  position: absolute;
+  display:inline;
+  z-index: 110;
+  left: 1070px;
+  top: 4425px;
+  cursor:pointer;
+}
+
+.video1{
+  cursor:pointer;
+}
+.circle1{
+  border-radius: 50%;
+  background-color: rgb( 190, 166, 124 );
+  opacity: 0.8;
+  position: absolute;
+  left: 568px;
+  top: 2749px;
+  width: 68px;
+  height: 68px;
+  z-index: 62;
+}
+.triangle1{
+  position: absolute;
+  left: 592px;
+  top: 2770px;
+  width: 68px;
+  height: 68px;
+  z-index: 62;
+}
+
+.video2{
+  cursor:pointer;
+}
+.circle2{
+  border-radius: 50%;
+  background-color: rgb( 190, 166, 124 );
+  opacity: 0.8;
+  position: absolute;
+  left: 926px;
+  top: 2749px;
+  width: 68px;
+  height: 68px;
+  z-index: 62;
+}
+.triangle2{
+  position: absolute;
+  left: 950px;
+  top: 2770px;
+  width: 68px;
+  height: 68px;
+  z-index: 62;
+}
+
+.video3{
+  cursor:pointer;
+}
+.circle3{
+  border-radius: 50%;
+  background-color: rgb( 190, 166, 124 );
+  opacity: 0.8;
+  position: absolute;
+  left: 1280px;
+  top: 2749px;
+  width: 68px;
+  height: 68px;
+  z-index: 62;
+}
+.triangle3{
+  position: absolute;
+  left: 1304px;
+  top: 2770px;
+  width: 68px;
+  height: 68px;
+  z-index: 62;
+}
+
+.videoPlay{
+  position: absolute;
+  left: 182px;
+  top: 3220px;
+  width: 1560px;
+  height:735px;
+  z-index: 500;
+
+}
+.videoBtn{
+  cursor:pointer;
+}
+.videoBtn1 {
+  border-width: 2px;
+  border-color: rgb( 255, 255, 255 );
+  border-style: solid;
+  position: absolute;
+  left: 573px;
+  top: 3715px;
+  width: 302px;
+  height: 54px;
+  z-index: 35;
+}
+
+.videoBtn2 {
+  text-align: left;
+  position: absolute;
+  left: 620px;
+  top: 3731px;
+  z-index: 36;
+}
+
+.videoBtn3 {
+  font-size: 15px;
+  font-family: "Proxima Nova";
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 5;
+  text-align: left;
+  position: absolute;
+  left: 680px;
+  top: 3710px;
+  z-index: 36;
+}
+
+.footer1 {
+  background-color: rgb( 5, 5, 5 );
+  position: absolute;
+  top: 4708px;
+  width: 1920px;
+  height: 69px;
+  z-index: 4;
+}
+.footer2 {
+  position: absolute;
+  top: 4708px;
+  width: 1920px;
+  height: 69px;
+  z-index: 5;
+  background-image: url("images/DSC_1007_2004.png");
+  opacity: 0.1;
+}
+.year{
+  font-size: 15px;
+  font-family: "Proxima Nova";
+  color: rgba( 70, 70, 70, 0.5 );
+  line-height: 1.8;
+  text-align: left;
+  position: absolute;
+  left:375px;
+  top:4735px;
+  z-index: 189;
+}
+
+.wooderfooter {
+  font-size: 36px;
+  font-family: "Proxima Nova";
+  color: rgb( 255, 255, 255);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  position: absolute;
+  left: 862px;
+  top: 4685px;
+  z-index: 187;
+}
+
+.line4 {
+  background-color: rgb( 190, 166, 124 );
+  position: absolute;
+  left: 905px;
+  top: 4741px;
+  width: 64px;
+  height: 4px;
+  z-index: 196;
+}
+
+.design1 {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Proxima Nova";
+  color: rgba( 70, 70, 70, 0.5 );
+  line-height: 1.8;
+  text-align: left;
+  position: absolute;
+  left: 1300px;
+  top: 4735px;
+  z-index: 180;
+}
+.design2{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: "Proxima Nova";
+  color: rgba( 70, 70, 70, 1 );
+  line-height: 1.8;
+  text-align: left;
+  position: absolute;
+  left: 1390px;
+  top: 4735px;
+  z-index: 180;
+}

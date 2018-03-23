@@ -1,0 +1,7 @@
+body{
+  width:1920px;
+  height: 4776px;
+  background-color:#999;
+  position: absolute;
+  z-index: -10;
+}
